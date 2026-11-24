@@ -11,7 +11,7 @@ if ($name === "" || $course === "") {
 $name = htmlspecialchars($name, ENT_QUOTES, 'UTF-8');
 $course = htmlspecialchars($course, ENT_QUOTES, 'UTF-8');
 
-$stmt = mysqli_prepare($conn, "INSERT INTO students (name, course) VALUES (?, ?)");
+$stmt = mysqli_prepare($conn, "INSERT INTO students (Name, Course) VALUES (?, ?)");
 
 mysqli_stmt_bind_param($stmt, "ss", $name, $course);
 
@@ -19,6 +19,6 @@ if (!mysqli_stmt_execute($stmt)) {
     die("Insert failed: " . mysqli_error($conn));
 }
 
-header("Location: view.php?added=1");
+header("Location: index.php?added=1");
 exit();
 ?>
