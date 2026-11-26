@@ -1,9 +1,9 @@
-> **IMPORTANT:** This is for the **`student_record_system`** branch and **`student_record_system`** folder. You only need to download **THAT** folder (`student_record_system`) for these instructions to work.
+> **IMPORTANT:** This part is for the **`student_record_system`** branch and **`student_record_system`** folder. You only need to download **THAT** folder (`student_record_system`) for these instructions to work.
 
 ## INSTRUCTIONS READ AND UNDERSTAND THIS CAREFULLY!
 
-1. Download the "student_record_system" folder
-2. Copy and Paste it inside `C:\xampp\htdocs`
+1. Download the **`student_record_system`** folder **or** the whole code and **ONLY** copy that folder.
+2. Copy and Paste `student_record_system` folder inside `C:\xampp\htdocs`(htdocs folder)
 3. Launch XAMPP > enable APACHE and MYSQL
 4. YOU HAVE 2 OPTIONS
    - **OPTION 1:** Go to phpmyadmin(open xampp and click "Admin" in the MYSQL row), click IMPORT, click CHOOSE FILE, select the "school_db.sql" file and IMPORT
@@ -12,6 +12,8 @@
 6. TEST the ADD STUDENT, EDIT(UPDATE), and DELETE
 
 ---
+
+> **IMPORTANT:** Beyond this part is for the **`main`** branch and **`student_system`** folder. You need to download **ONLY THAT** folder or zip (`student_system`) for these instructions to work.
 
 # Student Records Mini-System
 
